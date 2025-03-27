@@ -5,6 +5,6 @@ import UserNavigator from "./routes/UserNavigator";
 
 export default function Root(): JSX.Element {
   const isLogin = false;
-
+  
   return isLogin ? <UserNavigator /> : <AuthNavigator />;
 }
